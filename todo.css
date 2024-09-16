@@ -1,0 +1,29 @@
+
+body{
+    font-family: Arial;
+}
+
+.grid-temp,.grid-temp1{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    gap: 10px;
+}
+
+.grid-temp1{
+    margin-bottom: 10px;
+}
+
+.grid-temp1 button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.grid-temp button{
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
